@@ -1,0 +1,100 @@
+/* Car Item Styles */
+.car__item {
+    border: 1px solid #7c8a9736;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff; /* Ensure background is white for clarity */
+}
+
+.car__item-info span i {
+    color: #f9a826;
+}
+
+.car__item-btn {
+    border-radius: 0;
+    border: none;
+    outline: none;
+    background: #005331;
+    padding: 8px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 600; /* Ensure text stands out */
+    transition: background 0.3s ease; /* Smooth background transition */
+}
+
+.car__item-btn a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 100%;
+}
+
+.car__btn-details {
+    background: #f9a826;
+    border-radius: 0 4px 4px 0;
+}
+
+.car__btn-details a {
+    color: #005331;
+}
+
+.car__btn-rent {
+    background: #005331;
+    border-radius: 4px 0 0 4px;
+    color: #fff;
+}
+
+.car__btn-details:hover,
+.car__btn-rent:hover {
+    background: #84a800; /* Darker shade for hover effect */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 992px) {
+    .car__item h4 {
+        font-size: 1.1rem;
+        margin-bottom: 0;
+    }
+
+    .car__item h6 {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .car__item-info {
+        flex-wrap: wrap;
+    }
+
+    .car__item-info span {
+        font-size: 0.8rem;
+        justify-content: space-between;
+    }
+
+    .car__item-btn {
+        padding: 5px 10px;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .car__item h4 {
+        font-size: 1rem;
+    }
+
+    .car__item h6 {
+        font-size: 0.9rem;
+    }
+
+    .car__item-info span {
+        font-size: 0.7rem;
+    }
+
+    .car__item-info span i {
+        font-size: 0.9rem;
+    }
+
+    .car__item-btn {
+        font-size: 0.8rem;
+    }
+}

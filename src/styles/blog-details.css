@@ -1,0 +1,94 @@
+.blog__publisher span i {
+    color: #f9a826;
+  }
+  
+  blockquote {
+    line-height: 35px;
+  }
+  
+  .single__comment img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #006b1b;
+    object-fit: cover;
+  }
+  
+  .replay i {
+    color: #f9a826;
+  }
+  
+  .replay {
+    color: #006b2d;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .leave__comment-form input,
+  .leave__comment-form textarea {
+    border: 1px solid rgba(0, 107, 48, 0.118);
+  }
+  
+  .leave__comment-form textarea:focus {
+    outline: none;
+  }
+  
+  .comment__btn {
+    background: #006b2d !important;
+    color: #fff !important;
+  }
+  
+  .recent__blog-item h6 a {
+    text-decoration: none;
+    color: #006b0e;
+    font-weight: 600;
+  }
+  .blog__details{
+    margin-top: 100px;
+  }
+  .leave__comment-form{
+    margin-bottom: 100px;
+  }
+  .recent__post{
+    margin-top: 100px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .leave__comment-form{
+      margin-bottom: 30px;
+    }
+    .recent__post {
+      margin-top: 30px;
+    }
+  
+    .leave__comment-form input,
+    .leave__comment-form textarea {
+      font-size: 0.7rem;
+    }
+  
+    .comment__btn {
+      padding: 5px 10px;
+      font-size: 0.8rem;
+      margin-top: 0px !important;
+    }
+  
+    .leave__comment-form h4 {
+      font-size: 1.2rem;
+    }
+  
+    .single__comment img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .comment__content p {
+      font-size: 0.8rem;
+      line-height: 1.4rem;
+    }
+  
+    .blog__details p {
+      font-size: 0.8rem;
+      line-height: 1.4rem;
+    }
+  }
+  

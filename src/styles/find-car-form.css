@@ -1,0 +1,176 @@
+/* Find Cars Section */
+.find__cars-left {
+    background: linear-gradient(rgba(249, 168, 38, 0.9), rgba(249, 168, 38, 0.9)),
+    url('../assets/all-images/toyota-offer-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 78px 35px;
+    color: #fff; /* Ensure text is visible on background */
+    text-align: left; /* Align text to left for larger screens */
+}
+
+.find__cars-left h2 {
+    font-weight: 600;
+    font-size: 2.8rem;
+    margin-bottom: 1rem; /* Add space below heading */
+}
+
+.form__group {
+    width: 30%;
+    margin-bottom: 0;
+}
+
+.form__group input {
+    border: 1px solid #7c8a972a;
+    padding: 8px 12px;
+    width: 100%;
+    outline: none;
+}
+
+.form__group input::placeholder {
+    color: #7c8a97;
+}
+
+.form {
+    background: #fff;
+    padding: 55px 15px 10px;
+}
+
+.select__group {
+    width: 30%;
+}
+
+.select__group select {
+    width: 100%;
+    padding: 8px 15px;
+    border: 1px solid #7c8a972a;
+    outline: none;
+}
+
+.hero__slider-section {
+    position: relative;
+    z-index: 10;
+    margin-bottom: 200px;
+}
+
+.hero__form {
+    position: absolute;
+    bottom: -100px;
+    z-index: 11;
+    width: 100%;
+}
+
+.form__row {
+    background: #fff;
+    box-shadow: 5px 5px 15px -5px #7c8a97;
+}
+
+.journey__time::before {
+    content: 'Journey time';
+    margin-right: 0.8rem;
+    color: #7c8a97;
+}
+
+.find__car-btn {
+    background: #004d40 !important;
+    color: #fff !important;
+    padding: 8px 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer; /* Add cursor pointer for button */
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.find__car-btn:hover {
+    background: #00947b;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 992px) {
+    .find__cars-left {
+        padding: 65px 22px;
+    }
+
+    .find__cars-left h2 {
+        font-size: 1.5rem;
+    }
+
+    .form {
+        padding: 30px 10px;
+    }
+
+    .form__group,
+    .select__group {
+        width: 100%;
+        margin-bottom: 1rem; /* Add spacing between form fields */
+    }
+
+    .form__group input,
+    .select__group select {
+        padding: 7px 10px;
+        font-size: 0.8rem;
+    }
+
+    .hero__form {
+        bottom: -120px; /* Adjusted bottom position */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .find__cars-left {
+        padding: 20px 10px;
+        background: #fff;
+        text-align: center; /* Center text for smaller screens */
+        color: #000; /* Ensure text is visible on white background */
+    }
+
+    .find__cars-left h2 {
+        font-size: 1.2rem;
+    }
+
+    .form {
+        padding: 20px 10px;
+    }
+
+    .form__group,
+    .select__group {
+        width: 100%;
+        margin-bottom: 1rem; /* Add spacing between form fields */
+    }
+
+    .hero__form {
+        bottom: -150px; /* Adjusted bottom position */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .form__group,
+    .select__group {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 1rem; /* Consistent spacing between form fields */
+    }
+
+    .form__group input,
+    .select__group select {
+        font-size: 0.8rem; /* Slightly larger font size for better readability */
+    }
+
+    .find__car-btn {
+        font-size: 0.9rem; /* Adjust font size for better fit */
+    }
+
+    .find__cars-left h2 {
+        font-size: 1rem;
+    }
+
+    .hero__form {
+        bottom: -200px; /* Further adjusted bottom position */
+    }
+    .form__row {
+        box-shadow: none;
+    }
+}

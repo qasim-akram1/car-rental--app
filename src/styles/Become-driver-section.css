@@ -1,0 +1,63 @@
+/* Styles for the "Become a Driver" section */
+.become__driver {
+    background: linear-gradient(rgba(0, 77, 64, 0.5), rgba(0, 77, 64, 0.5)), url('../assets/all-images/drive.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.become__driver-title {
+    font-size: 2.8rem;
+    color: #fff;
+    line-height: 65px;
+    text-align: center; /* Centering title text */
+}
+
+.become__driver button {
+    background: #fff;
+    color: #005331; /* Adjust button text color if necessary */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.become__driver button:hover {
+    background: #f9a826; /* Hover effect */
+    color: #fff;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 992px) {
+    .become__driver-title {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .become__driver {
+        padding: 50px 0;
+    }
+
+    .become__driver-title {
+        font-size: 1.3rem;
+        line-height: 2.5rem;
+    }
+
+    .become__driver button {
+        font-size: 0.8rem; /* Ensure button text is legible */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .become__driver-img {
+        display: none; /* Hide image on small screens */
+    }
+    .become__driver {
+        text-align: center; /* Center content on small screens */
+    }
+}
